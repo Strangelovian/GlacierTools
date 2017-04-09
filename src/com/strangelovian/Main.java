@@ -26,10 +26,13 @@ public class Main {
                 Regions.EU_CENTRAL_1,
                 Regions.EU_WEST_1);
 
+        // STEP 1: initiate vault inventory jobs
         // InitiateInventoriesAllRegions(regions);
 
+        // STEP 2: 12 hours later, download vault archive inventories
         // DownloadVaultInventoriesAllRegions(regions);
 
+        // STEP 3: delete vault archives
         // DeleteVaultArchivesAllRegions(regions);
     }
 
