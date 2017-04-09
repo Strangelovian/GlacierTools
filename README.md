@@ -1,8 +1,9 @@
 # GlacierTools
 Get rid of Amazon Glacier data in three steps:
-1. initiate vault inventory jobs
-2. 12 hours later, fetch vault archive inventories
-3. proceed to delete vault archives
+1. initiate vault inventory jobs. Job identifiers are stored in Json text files locally, for later use.
+2. 12 hours later, fetch vault archive inventories from previously saved files. Inventory files are stored locally in
+other Json files.
+3. proceed to delete vault archives, using archive identifiers stored in Json files.
 
 Nota bene:
 - this is a java intellij idea console application
